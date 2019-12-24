@@ -1,11 +1,5 @@
-<<<<<<< Updated upstream
-My name is Andrew
-My name is Artem
-My name is Slava Terminatork
-=======
 !My name is Andrew
 !My name is Artem
-!My name is Slava New Order
+!My name is Slava New Order Pull Request
 !My name is Roman
 !My name is Lena
->>>>>>> Stashed changes
