@@ -1,7 +1,5 @@
 !My name is Andrew
-!My name is Artem Razmyslovich
-!My name is Slava Shalkevich 123
-!Hello world.My name is Roman.
-!
-!
-!
+!My name is Artem
+!My name is Slava
+!My name is Roman
+!My name is Lena
