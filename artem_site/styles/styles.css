@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 1900px;
+}
+
 header {
-    background: url("../img/header.jpg");
+    background-image: url("../img/header.jpg");
     height: 573px;
     text-align: center;
     margin-bottom: 50px;
@@ -18,46 +22,46 @@ nav {
     padding-left: 65%;
 }
 
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
 nav li a{
-    display: inline;
-    float: left;
-    margin-top: 1px;
     text-decoration: none;
     color: white;
-    margin-right: 7px;
 }
 
 h1 {
     padding-top: 90px;
     font-size: 100px;
-    font-family: "Georgia", serif;
     color: aliceblue;
 }
 
 h2 {
     padding-top: 10px;
     font-size: 50px;
-    font-family: "Georgia", serif;
     color:azure;
     font-variant: small-caps;
 }
 
-.photo-grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 80%;
-    margin-left: 20%;
+h1, h2 {
+    font-family: "Georgia", serif;
 }
 
-.photo-grid > li {
+.photo-grid {
+    margin-left: 10%;
+}
+
+.photo-grid img {
+    width: 30%;
     border: 1px solid black;
-    margin: 0px 30px 30px 0px;
+    margin: 0px 20px 20px 0px;
 }
 
 .line {
     border-bottom: 3px solid #bfbfbf;
-    margin: 10px 0px 00px 0px;
+    margin: 10px 0px 0px 0px;
 
 }
 
@@ -77,8 +81,7 @@ form {
 }
 
 input {
-    min-width: 598px;
-    max-width: 598px;
+    width: 31%;
     margin-bottom: 10px;
     padding-left: 10px;
     height: 47px;
@@ -87,11 +90,11 @@ input {
     border-color: gainsboro;
 }
 
-#submit {
+.submit {
     background-color: #7c99a8;
 }
 
-#yoph {
+.yoph {
     margin-left: 660px;
     margin-bottom: 10px;
     text-align: left;
@@ -101,31 +104,33 @@ footer {
     background-color: #192024;
 }
 
-footer img {
-    border-radius: 10px;
-}
-
-#twopic {
-    display:flex;
-    padding-left: 28%;
+.twopic {
+    width: 70%;
+    margin-left: 30%;
     padding-top: 50px;
 }
 
-#twopic figcapture {
+.twopic figure {
+    width: 30%;
+    display: inline-block;
+}
+
+.twopic figcapture {
     font-size: 25px;
     color: aliceblue;
     padding-left: 25%;
 }
 
-#pic2 {
-    padding-left: 50px;
+.twopic img{
+    border-radius: 10px;
 }
 
-#sitemap {
+.sitemap {
+    width: 60%;
     padding-right: 10%;
 }
 
-#sitemap a{
+.sitemap a{
     font-size: 1.2em;
     text-decoration: none;
     color: white;
@@ -136,7 +141,7 @@ footer img {
     width: 70%;
     margin-top: 50px;
     padding-bottom: 2%;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .footer-navigation {
@@ -152,23 +157,23 @@ footer img {
     line-height: 50px;
 }
 
-#joinup{
+.joinup{
     color: white;
     font-size: 30px;
     margin-bottom: 10px;
     padding-left: 30px;
 }
 
-#sitemap, #socials {
+.sitemap, .socials {
     padding-left: 20%;
 }
 
-#socials {
+.socials {
     margin-top: 1%;
-    padding-left: 15%;
+    padding-left: 20%;
 }
 
-#socials li{
+.socials li{
     display: inline;
     margin-right: 6px;
 }
