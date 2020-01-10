@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Домашнее задание по HTML+CSS">
+        <meta name="keywords" content="HTML, CSS, верстка">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" href="img/favicon.ico">
+        <title>Домашнее задание по HTML+CSS</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./contacts.html" target="_blank" title="contacts">contacts</a></li>
+                    <li><a href="./blog.html" target="_blank" title="blog">| blog |</a></li>
+                    <li><a href="index.html" target="_blank" title="main">main</a></li>
+                </ul>
+            </nav>
+        <h1>IMARAZM</h1>
+        <h2>блог о плёночной фотографии и не только</h2>
+        </header>
+        <main>
+            <ul class="photo-grid">
+                <li><a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a></li>
+                <li><a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a></li>
+                <li><a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a></li>
+                <li><a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a></li>
+                <li><a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a></li>
+                <li><a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a></li>
+                <li><a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a></li>
+                <li><a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a></li>
+                <li><a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a></li>
+            </ul>
+        <div class="line"></div>
+            <form>
+                <h3>Please complete all fields to upload your photo</h3>
+                <div><input type="text" placeholder="На что сделан снимок"></div>
+                <div><input type="text" placeholder="На что сделан снимок"></div>
+                <div><input type="text" placeholder="На что сделан снимок"></div>
+                <div><input type="text" placeholder="На что сделан снимок"></div>
+                <div><input type="text" placeholder="На что сделан снимок"></div>
+                <div><input id="submit" type="button" onclick="alert('Спасибо, Ваше фото принято!')" value="Send"></div>
+                <div id="yoph">Your photo</div>
+                <div><input type="file" name="Photo upload"></div>
+            </form>
+        </main>
+        <div class="line"></div>
+        <footer>
+            <div id="twopic">
+                <figure id="pic1"><img src="files/mini1.png" alt="Photo 1"><br>
+                    <figcapture>Подпись картинки 1</figcapture>
+                    </figure>
+                <figure id="pic2"><img src="files/mini2.png" alt="Photo 2"><br>
+                    <figcapture>Подпись картинки 2</figcapture>
+                    </figure>
+            </div>
+            <div class="futer">
+                <div id="sitemap">
+                    <ul class="footer-navigation">
+                        <li>
+                            <ul>
+                                <li><a href="index.html" target="_blank">Home</a></li>
+                                <li><a href="index.html" target="_blank">Solutions</a></li>
+                                <li><a href="index.html" target="_blank">Technologies</a></li>
+                            </ul>
+                        </li>
+                        <li class="list">
+                            <ul>
+                                <li><a href="index.html" target="_blank">Future</a></li>
+                                <li><a href="index.html" target="_blank">Why us?</a></li>
+                                <li><a href="index.html" target="_blank">Portfolio</a></li>
+                            </ul>
+                        </li>
+                        <li class="list">
+                            <ul>
+                                <li><a href="index.html" target="_blank">Blog</a></li>
+                                <li><a href="index.html" target="_blank">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="socials">
+                    <span id="joinup">Join up</span>
+                    <ul>
+                        <li><a href="https://www.facebook.com" target="_blank" title="Facebook"><img src="img/facebook.png" alt="fb icon"></a></li>
+                        <li><a href="https://instagram.com" target="_blank" title="Instagram"><img src="img/instagram.png" alt="inst icon"></a></li>
+                        <li><a href="https://vk.com" target="_blank" title="VKontakte"><img src="img/vk.png" alt="vk icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
