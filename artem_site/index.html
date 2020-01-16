@@ -23,32 +23,32 @@
         </header>
         <main>
             <div class="photo-grid">
-                <a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a>
-                <a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a>
-                <a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a>
-                <a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a>
-                <a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a>
-                <a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a>
-                <a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a>
-                <a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a>
-                <a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a>
+                <div class="card"><a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a></div>
+                <div class="card"><a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a></div>
+                <div class="card"><a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a></div>
+                <div class="card"><a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a></div>
+                <div class="card"><a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a></div>
+                <div class="card"><a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a></div>
+                <div class="card"><a href="files/1.jpg" target="_blank"><img src="files/mini1.png" alt="Photo 1"></a></div>
+                <div class="card"><a href="files/2.jpg" target="_blank"><img src="files/mini2.png" alt="Photo 2"></a></div>
+                <div class="card"><a href="files/3.jpg" target="_blank"><img src="files/mini3.png" alt="Photo 3"></a></div>
             </div>
         <div class="line"></div>
-            <form>
-                <h3>Please complete all fields to upload your photo</h3>
-                <div><input type="text" placeholder="На что сделан снимок"></div>
-                <div><input type="text" placeholder="На что сделан снимок"></div>
-                <div><input type="text" placeholder="На что сделан снимок"></div>
-                <div><input type="text" placeholder="На что сделан снимок"></div>
-                <div><input type="text" placeholder="На что сделан снимок"></div>
-                <div><input class="submit" type="button" onclick="alert('Спасибо, Ваше фото принято!')" value="Send"></div>
-                <div class="yoph">Your photo</div>
-                <div><input type="file" name="Photo upload"></div>
-            </form>
+        <h3>Please complete all fields to upload your photo</h3>    
+        <form>
+            <input type="text" placeholder="На что сделан снимок"><br>
+            <input type="text" placeholder="На что сделан снимок"><br>
+            <input type="text" placeholder="На что сделан снимок"><br>
+            <input type="text" placeholder="На что сделан снимок"><br>
+            <input type="text" placeholder="На что сделан снимок"><br>
+            <input class="submit" type="button" onclick="alert('Спасибо, Ваше фото принято!')" value="Send"><br>
+            <p class="yoph">Your photo</p><br>
+            <input type="file" name="Photo upload">
+        </form>
         </main>
         <div class="line"></div>
         <footer>
-            <div class="twopicback">
+            <div class="twopicback nowrap">
                 <div class="twopic">
                     <figure class="pic1"><img src="files/mini4.png" alt="Photo 4"><br>
                         <span>Подпись картинки 1</span>
@@ -58,8 +58,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="footer-navigation">
-                <span class="nowrap">
+            <div class="footer-navigation nowrap">
                     <div class="sitemap">
                         <ul>
                             <li class="list">
@@ -92,7 +91,6 @@
                             <li><a href="https://vk.com" target="_blank" title="VKontakte"><img src="img/vk.png" alt="vk icon"></a></li>
                         </ul>
                     </div>
-                </span>
             </div>
         </footer>
     </body>

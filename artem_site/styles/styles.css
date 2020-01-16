@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1900px;
-}
-
 header {
     background-image: url("../img/header.jpg");
     height: 573px;
@@ -15,7 +11,7 @@ header {
 
 nav {
     background-color: black;
-    height: 10%;
+    height: 55px;
 }
 
 nav ul {
@@ -23,7 +19,8 @@ nav ul {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 50px;
-    margin-left: 65%;
+    text-align: right;
+    margin-right: 10%;
 }
 
 nav li {
@@ -54,18 +51,24 @@ h1, h2 {
 }
 
 .photo-grid {
-    margin-left: 10%;
+    width: 1500px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.photo-grid img {
-    width: 30%;
+.card {
+    display: inline-block;
     border: 1px solid black;
     margin: 0px 20px 20px 0px;
 }
 
+.card a {
+    display: inline-block;
+}
+
 .line {
     border-bottom: 3px solid #bfbfbf;
-    margin: 10px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 h3 {
@@ -73,18 +76,17 @@ h3 {
     font-size: 20px;
     color: gray;
     margin-bottom: 20px;
-}
-
-form {
+    padding-top: 20px;
     text-align: center;
 }
 
 form {
-    margin-top: 40px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 input {
-    width: 31%;
+    width: 30%;
     margin-bottom: 10px;
     padding-left: 10px;
     height: 47px;
@@ -93,13 +95,16 @@ input {
     border-color: gainsboro;
 }
 
+input[type="text"]:focus {
+    border: 2px solid darkblue;
+}
+
 .submit {
     background-color: #7c99a8;
 }
 
 .yoph {
     margin-left: 660px;
-    margin-bottom: 10px;
     text-align: left;
 }
 
@@ -109,7 +114,6 @@ footer {
 
 .twopicback {
     background-color: #192024;
-    height: 410px;
 }
 
 .twopic {
@@ -165,10 +169,14 @@ footer {
     line-height: 50px;
 }
 
-.sitemap a{
+.sitemap a {
     font-size: 1.3em;
     text-decoration: none;
     color: white;
+}
+
+.sitemap a:hover {
+    color: lightcoral;
 }
 
 .socials {
