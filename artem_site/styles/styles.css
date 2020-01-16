@@ -16,10 +16,14 @@ header {
 nav {
     background-color: black;
     height: 10%;
+}
+
+nav ul {
     font-family: "Times New Roman", Times, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
-    padding-left: 65%;
+    line-height: 50px;
+    margin-left: 65%;
 }
 
 nav li {
@@ -62,7 +66,6 @@ h1, h2 {
 .line {
     border-bottom: 3px solid #bfbfbf;
     margin: 10px 0px 0px 0px;
-
 }
 
 h3 {
@@ -101,79 +104,85 @@ input {
 }
 
 footer {
+    background-color: #1f1f1f;
+}
+
+.twopicback {
     background-color: #192024;
+    height: 410px;
 }
 
 .twopic {
-    width: 70%;
-    margin-left: 30%;
+    width: 950px;
     padding-top: 50px;
+    margin: 0 auto;
 }
 
 .twopic figure {
-    width: 30%;
     display: inline-block;
+    text-align: center;
 }
 
-.twopic figcapture {
+.twopic span {
     font-size: 25px;
     color: aliceblue;
-    padding-left: 25%;
 }
 
 .twopic img{
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pic2 {
+    padding-left: 45px;
+}
+
+.footer-navigation {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-navigation div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
 
 .sitemap {
-    width: 60%;
-    padding-right: 10%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sitemap .list {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
 }
 
 .sitemap a{
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-decoration: none;
     color: white;
 }
 
-.futer {
-    display: flex;
-    width: 70%;
-    margin-top: 50px;
-    padding-bottom: 2%;
-    padding-left: 15%;
-}
-
-.footer-navigation {
-    display: inline-flex;
-    padding-left: 30%;
-}
-
-.list {
-    margin-left: 100px;
-}
-
-.list, li {
-    line-height: 50px;
+.socials {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .joinup{
     color: white;
     font-size: 30px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-}
-
-.sitemap, .socials {
-    padding-left: 20%;
-}
-
-.socials {
-    margin-top: 1%;
-    padding-left: 20%;
 }
 
 .socials li{
-    display: inline;
-    margin-right: 6px;
+    display: inline-block;
+    margin-left: 5px;
 }
