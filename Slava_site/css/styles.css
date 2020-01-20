@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+
 header {
     background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
@@ -31,26 +36,23 @@ nav li a {
     color: white;
 }
 
-h1 {
+.main-header {
+    text-align: center;
+    font-size: 24px;
+}
+.main-header span {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+}
+/* h1 {
     padding-top: 90px;
     font-size: 100px;
     color: burlywood;
-    text-transform: uppercase;
-    font-family: "Georgia", serif;
-    border: 2px solid red;
-    display: inline-block;
-    width : 400px;
-}  
+    font-family: "Georgia", serif; */
 
-h2 {
-    padding-top: 10px;
-    font-size: 50px;
-    color:purple;
-    font-variant: small-caps;
-    text-transform: uppercase;
-    font-family: "Georgia", serif;
 }
-
+/* 
 .photo-grid {
     width: 1224px;
     text-align: center;
@@ -218,4 +220,4 @@ footer {
 .socials li {
     display: inline-block;
     margin-left: 5px;
-}
+} */
