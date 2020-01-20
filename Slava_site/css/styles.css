@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-.Main_title {
-    color: red;
-}
-
 header {
     background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
@@ -39,16 +35,19 @@ h1 {
     padding-top: 90px;
     font-size: 100px;
     color: burlywood;
-}
+    text-transform: uppercase;
+    font-family: "Georgia", serif;
+    border: 2px solid red;
+    display: inline-block;
+    width : 400px;
+}  
 
 h2 {
     padding-top: 10px;
     font-size: 50px;
     color:purple;
     font-variant: small-caps;
-}
-
-h1, h2 {
+    text-transform: uppercase;
     font-family: "Georgia", serif;
 }
 
