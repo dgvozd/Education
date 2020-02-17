@@ -49,7 +49,8 @@ h1, h2 {
 }
 
 .photo-grid {
-    width: 1224px;
+    width: 1200px;
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
     font-size: 0;
@@ -66,6 +67,7 @@ h1, h2 {
 }
 
 .card img {
+    width: 100%;
     border: 1px solid black;
 }
 
@@ -84,6 +86,8 @@ h3 {
 }
 
 form {
+    width: 500px;
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
 }
@@ -94,7 +98,7 @@ form .input {
 
 input {
     display: block;
-    width: 30%;
+    width: 100%;
     margin: 0 auto;
     padding-left: 10px;
     height: 47px;
@@ -115,7 +119,6 @@ fieldset {
     font-size: 12px;
     color: grey;
     text-align: left;
-    margin-left: 35.5%;
     margin-bottom: 5px;
 }
 
@@ -129,18 +132,22 @@ footer {
 
 .twopicback {
     background-color: #192024;
+    margin: 0 auto;
 }
 
 .twopic {
     width: 950px;
+    max-width: 100%;
     padding-top: 50px;
     padding-bottom: 20px;
     margin: 0 auto;
+    font-size: 0;
 }
 
 .twopic figure {
     display: inline-block;
     text-align: center;
+    padding: 0 20px 0;
 }
 
 .twopic span {
@@ -149,16 +156,14 @@ footer {
 }
 
 .twopic img {
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-.pic2 {
-    padding-left: 45px;
-}
-
 .footer-navigation {
     width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -215,4 +220,118 @@ footer {
 .socials li {
     display: inline-block;
     margin-left: 5px;
+}
+
+@media (max-width: 992px) {
+    header {
+        height: 400px;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .twopic figure {
+        width: 50%;
+    }
+
+    .twopic img {
+        width: 100%;
+    }
+
+    .footer-navigation {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 250px;
+        margin-bottom: 0;
+    }
+
+    nav ul {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    h1 {
+        padding-top: 30px;
+        font-size: 50px;
+    }
+
+    h2 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .twopic figure {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .twopic img {
+        width: 100%;
+    }
+
+    .pic2 {
+        padding-left: 0;
+    }
+
+    .footer-navigation {
+        width: 90%;
+    }
+    
+    .footer-navigation div {
+        display: block;
+    }
+
+    .sitemap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .sitemap .list {
+        width: 33.3%;
+        line-height: 40px;
+    }
+
+    .sitemap a {
+        font-size: 1em;
+    }
+
+    .socials {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .socials ul {
+        padding-top: 15px;
+    }
+
+    .socials li {
+        margin-left: 10px;
+    }
 }
