@@ -18,7 +18,7 @@ nav ul {
     text-transform: uppercase;
     line-height: 50px;
     text-align: right;
-    padding: 0 10% 0 0;
+    padding: 0 150px 0 0;
 }
 
 nav li {
@@ -169,7 +169,7 @@ footer {
     padding: 20px 0;
 }
 
-.footer-navigation div {
+.footer-navigation .inblo {
     display: inline-block;
     vertical-align: top;
 }
@@ -219,6 +219,9 @@ footer {
 
 .socials li {
     display: inline-block;
+}
+
+.kurwa ~ li {
     margin: 0 0 0 5px;
 }
 
@@ -231,13 +234,9 @@ footer {
         width: 50%;
     }
 
-    .card img {
-        width: 100%;
-    }
-
     form {
         width: 100%;
-        padding: 0 10% 0;
+        padding: 0 100px 0;
     }
 
     .twopic figure {
@@ -252,7 +251,7 @@ footer {
         width: 100%;
     }
     
-    .footer-navigation div {
+    .footer-navigation .inblo {
         display: block;
         width: 80%;
         margin: 0 auto;
@@ -266,7 +265,7 @@ footer {
     .sitemap .list {
         width: 33.3%;
         line-height: 40px;
-        padding: 0 0 0 10%;
+        padding: 0 0 0 70px;
     }
 
     .sitemap a {
@@ -275,7 +274,7 @@ footer {
 
     .socials {
         width: 100%;
-        padding: 5% 0 0 0;
+        padding: 30px 0 0 0;
     }
 
     .socials ul {
@@ -312,19 +311,15 @@ footer {
         width: 100%;
     }
 
-    .card img {
-        width: 100%;
-    }
-
     form {
         width: 100%;
-        padding: 0 5% 0;
+        padding: 0 50px 0;
     }
 
     .twopic figure {
         display: block;
         width: 100%;
-        padding: 0 0 10px 0;
+        padding: 0 10px 10px 10px;
     }
 
     .twopic img {
@@ -335,7 +330,7 @@ footer {
         width: 100%;
     }
     
-    .footer-navigation div {
+    .footer-navigation .inblo {
         display: block;
     }
 
@@ -347,7 +342,7 @@ footer {
     .sitemap .list {
         width: 33.3%;
         line-height: 40px;
-        padding: 0 0 0 5%;
+        padding: 0 0 0 40px;
     }
 
     .sitemap a {
@@ -356,7 +351,7 @@ footer {
 
     .socials {
         width: 100%;
-        padding: 5% 0 0 0;
+        padding: 30px 0 0 0;
     }
 
     .socials ul {
