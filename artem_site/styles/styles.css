@@ -7,7 +7,7 @@ header {
     background-repeat: no-repeat;
     height: 573px;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 0 0 50px 0;
 }
 
 nav ul {
@@ -18,12 +18,12 @@ nav ul {
     text-transform: uppercase;
     line-height: 50px;
     text-align: right;
-    padding-right: 10%;
+    padding: 0 10% 0 0;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 5px;
+    margin: 0 0 0 5px;
 }
 
 nav li a {
@@ -32,13 +32,14 @@ nav li a {
 }
 
 h1 {
-    padding-top: 90px;
+    padding: 90px 0 0 0;
     font-size: 100px;
+    text-transform: uppercase;
     color: aliceblue;
 }
 
 h2 {
-    padding-top: 10px;
+    padding: 10px 0 0 0;
     font-size: 50px;
     color:azure;
     font-variant: small-caps;
@@ -80,8 +81,8 @@ h3 {
     font-family: "Times New Roman", times, sans-serif;
     font-size: 20px;
     color: gray;
-    margin-bottom: 20px;
-    padding-top: 20px;
+    margin: 0 0 20px 0;
+    padding: 20px 0 0 0;
     text-align: center;
 }
 
@@ -100,7 +101,7 @@ input {
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding-left: 10px;
+    padding: 0 0 0 10px;
     height: 47px;
     border-radius: 5px;
     border-width: 1px;
@@ -112,14 +113,14 @@ input[type="text"]:focus {
 }
 
 fieldset {
-    margin-top: 10px;
+    margin: 10px 0 0 0;
 }
 
 .upload {
     font-size: 12px;
     color: grey;
     text-align: left;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
 }
 
 .submit {
@@ -138,14 +139,14 @@ footer {
 .twopic {
     width: 950px;
     max-width: 100%;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding: 50px 0 20px 0;
     margin: 0 auto;
     font-size: 0;
 }
 
 .twopic figure {
     display: inline-block;
+    width: 50%;
     text-align: center;
     padding: 0 20px 0;
 }
@@ -158,15 +159,14 @@ footer {
 .twopic img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
 }
 
 .footer-navigation {
     width: 900px;
     max-width: 100%;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .footer-navigation div {
@@ -205,7 +205,7 @@ footer {
     width: 30%;
     margin: 0 auto;
     text-align: center;
-    padding-right: 100px;
+    padding: 0 100px 0 0;
 }
 
 .joinup {
@@ -214,12 +214,12 @@ footer {
 }
 
 .socials ul {
-    padding-top: 25px;
+    padding: 25px 0 0 0;
 }
 
 .socials li {
     display: inline-block;
-    margin-left: 5px;
+    margin: 0 0 0 5px;
 }
 
 @media (max-width: 992px) {
@@ -236,7 +236,8 @@ footer {
     }
 
     form {
-        width: 50%;
+        width: 100%;
+        padding: 0 10% 0;
     }
 
     .twopic figure {
@@ -248,28 +249,62 @@ footer {
     }
 
     .footer-navigation {
+        width: 100%;
+    }
+    
+    .footer-navigation div {
+        display: block;
         width: 80%;
+        margin: 0 auto;
+    }
+
+    .sitemap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .sitemap .list {
+        width: 33.3%;
+        line-height: 40px;
+        padding: 0 0 0 10%;
+    }
+
+    .sitemap a {
+        font-size: 1.2em;
+    }
+
+    .socials {
+        width: 100%;
+        padding: 5% 0 0 0;
+    }
+
+    .socials ul {
+        padding: 15px 0 0 0;
+    }
+
+    .socials li {
+        margin: 0 0 0 10px;
     }
 }
 
 @media (max-width: 576px) {
     header {
         height: 250px;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     nav ul {
         text-align: center;
-        padding-right: 0;
+        padding: 0;
     }
 
     h1 {
-        padding-top: 30px;
+        padding: 30px 0 0 0;
         font-size: 50px;
     }
 
     h2 {
-        padding-top: 20px;
+        padding: 20px 0 0 0;
         font-size: 25px;
     }
 
@@ -282,26 +317,22 @@ footer {
     }
 
     form {
-        width: 90%;
+        width: 100%;
+        padding: 0 5% 0;
     }
 
     .twopic figure {
         display: block;
-        text-align: center;
         width: 100%;
-        padding-bottom: 10px;
+        padding: 0 0 10px 0;
     }
 
     .twopic img {
         width: 100%;
     }
 
-    .pic2 {
-        padding-left: 0;
-    }
-
     .footer-navigation {
-        width: 90%;
+        width: 100%;
     }
     
     .footer-navigation div {
@@ -316,6 +347,7 @@ footer {
     .sitemap .list {
         width: 33.3%;
         line-height: 40px;
+        padding: 0 0 0 5%;
     }
 
     .sitemap a {
@@ -324,14 +356,14 @@ footer {
 
     .socials {
         width: 100%;
-        padding-right: 0;
+        padding: 5% 0 0 0;
     }
 
     .socials ul {
-        padding-top: 15px;
+        padding: 15px 0 0 0;
     }
 
     .socials li {
-        margin-left: 10px;
+        margin: 0 0 0 10px;
     }
 }
