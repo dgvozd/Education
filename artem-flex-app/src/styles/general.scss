@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header, .about-us, .our-services, .pricing-plan, .our-team, .blog, .contact-us {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 90px 0 30px 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 15px;
+    padding: 0 160px 90px 160px;
+    text-align: center;
+}
+
+.our-services, .blog {
+    background-color: #e4fdfa;
+}
+
+.pricing-plan {
+    background-color: #f0f2f1;
+}
