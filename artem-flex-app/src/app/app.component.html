@@ -14,8 +14,11 @@
   <div id="home" class="home">
       <h1>Web development project</h1>
       <h2>Very suitable to support all web development projects</h2>
-      <button>our services</button>
-      <button>hire us now</button>
+      <div class="button">
+        <a href="#home">our services</a>
+        <a href="#home">hire us now</a>
+      </div>
+      <div class="arrow"><a href="#about-us"><i class="down"></i></a></div>
   </div>
 </header>
 <main>
@@ -124,10 +127,82 @@
   <div id="our-team" class="our-team">
     <h3>Our Team Member</h3>
     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+    <div class="ot-items">
+      <div class="ot-card">
+        <img src="assets/img/GM.png">
+        <div class="name">Andrew Poklyak</div>
+        <div class="post">General Manager</div>
+        <div class="socnet">
+          <a href="#home"><img src="assets/img/internet.svg"></a>
+          <a href="#home"><img src="assets/img/b2b.svg"></a>
+          <a href="#home"><img src="assets/img/communications.svg"></a>
+          <a href="#home"><img src="assets/img/smartphone.svg"></a>
+        </div>
+      </div>
+      <div class="ot-card">
+        <img src="assets/img/GM22.png">
+        <div class="name">Egor Garkavy</div>
+        <div class="post">General Manager</div>
+        <div class="socnet">
+          <a href="#home"><img src="assets/img/internet.svg"></a>
+          <a href="#home"><img src="assets/img/b2b.svg"></a>
+          <a href="#home"><img src="assets/img/communications.svg"></a>
+          <a href="#home"><img src="assets/img/smartphone.svg"></a>
+        </div>
+      </div>
+      <div class="ot-card">
+        <img src="assets/img/GM3.png">
+        <div class="name">Artem Razmyslovich</div>
+        <div class="post">General Manager</div>
+        <div class="socnet">
+          <a href="#home"><img src="assets/img/internet.svg"></a>
+          <a href="#home"><img src="assets/img/b2b.svg"></a>
+          <a href="#home"><img src="assets/img/communications.svg"></a>
+          <a href="#home"><img src="assets/img/smartphone.svg"></a>
+        </div>
+      </div>
+    </div>
+    <div class="dots"><span class="dot dotblue"></span><span class="dot"></span><span class="dot"></span></div>
   </div>
   <div id="blog" class="blog">
     <h3>Blog</h3>
     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+    <div class="blog-items">
+      <div class="blog-card">
+        <div><img src="assets/img/00.jpg"></div>
+        <div class="blog-text">
+          <a href="#home">SEO Quis Vestibulu</a>
+          <div class="caldev">
+            <img src="assets/img/internet.svg"> <span>14.07.2017</span>
+            <img src="assets/img/internet.svg"> <span>Development</span>
+          </div>
+          <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-text">
+          <a href="#home">SEO Quis Vestibulu</a>
+          <div class="caldev">
+            <img src="assets/img/internet.svg"> <span>14.07.2017</span>
+            <img src="assets/img/internet.svg"> <span>Development</span>
+          </div>
+          <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+        </div>
+        <div><img src="assets/img/00.jpg"></div>
+      </div>
+      <div class="blog-card">
+        <div><img src="assets/img/00.jpg"></div>
+        <div class="blog-text">
+          <a href="#home">SEO Quis Vestibulu</a>
+          <div class="caldev">
+            <img src="assets/img/internet.svg"> <span>14.07.2017</span>
+            <img src="assets/img/internet.svg"> <span>Development</span>
+          </div>
+          <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+        </div>
+      </div>
+    </div>
+    <div class="moreview"><a href="#home">more view</a></div>
   </div>
   <div id="contact-us" class="contact-us">
       <h3>Contact Us</h3>
@@ -152,7 +227,7 @@
       <form>
         <div class="input"><input type="text" placeholder="Your Name">       
         <input type="text" placeholder="Your Email"></div>
-        <div class="input"><textarea name="text">Write message</textarea></div>
+        <div class="input"><textarea type="text" placeholder="Write message"></textarea></div>
         <div class="input"><input type="button" value="Send"></div>
       </form>
   </div>
