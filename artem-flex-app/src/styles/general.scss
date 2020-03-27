@@ -31,3 +31,17 @@ h4 {
 .pricing-plan {
     background-color: #f0f2f1;
 }
+
+@media (max-width: 900px) {
+    h3 {
+        font-size: 25px;
+        padding: 45px 0 15px 0;
+        text-align: center;
+    }
+    
+    h4 {
+        font-size: 15px;
+        padding: 0 80px 45px 80px;
+        text-align: center;
+    }
+}
